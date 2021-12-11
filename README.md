@@ -14,7 +14,18 @@ Implemented features:
 
 For weather, fill your OWM API key in /companion/weatherEnv.js file
 
+Screenshots:
+
+![Ionic](https://github.com/czandor/programmersWatchFitbit/blob/main/screenshots/ionic/Programmer's-Watch-screenshot%20(1).png?raw=true)
+![Ionic](https://github.com/czandor/programmersWatchFitbit/blob/main/screenshots/ionic/Programmer's-Watch-screenshot%20(2).png?raw=true)
+
+![Ionic](https://github.com/czandor/programmersWatchFitbit/blob/main/screenshots/versa/Programmer's-Watch-screenshot%20(1).png?raw=true)
+![Ionic](https://github.com/czandor/programmersWatchFitbit/blob/main/screenshots/versa/Programmer's-Watch-screenshot%20(2).png?raw=true)
+
+![Ionic](https://github.com/czandor/programmersWatchFitbit/blob/main/screenshots/sense/Programmer's-Watch-screenshot%20(1).png?raw=true)
+![Ionic](https://github.com/czandor/programmersWatchFitbit/blob/main/screenshots/sense/Programmer's-Watch-screenshot%20(2).png?raw=true)
 
 
 This clockface is completely free. Please support my work if you can.
 ☕ Buy me a coffee: https://czandor.hu/paypal/prog
+
