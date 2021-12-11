@@ -1,0 +1,8 @@
+<svg>
+  <defs>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="device.css" />
+    <link rel="import" href="common.defs" />
+    <link rel="import" href="/mnt/sysassets/system_widget.defs" />
+  </defs>
+</svg>

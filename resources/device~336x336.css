@@ -1,0 +1,95 @@
+#unixTime{
+  x:50%;
+  y:10+10;
+  text-anchor: middle;
+  text-length: 32;
+}
+#upperBlock{
+  x:5;
+  y:30+2;
+}
+#weather1{
+  x: 10+20;
+}
+#weather2{
+  x: 10+10;
+}
+#weather3{
+  x: 10+5;
+}
+#weather4{
+}
+
+.analogBlock{
+  x: 100%-100-10;
+  y: 10+17;
+}
+
+.timeBlock{
+  y:50%-40-5;
+}
+#time {
+  letter-spacing: 6;
+}
+#seconds{
+  x: 100%-10-55;
+}
+.secondsBar{
+  x: 100%-63-55;
+}
+#ampmBlock{
+  opacity:1;
+}
+
+.lowerBlock{
+  y: 100%-68-20;
+}
+
+#hrImage{
+  x:10+10;
+}
+#hrText{
+  x: 26+10;
+}
+#btImage{
+  x:90+10;
+}
+.circleBig{
+  cx: 67+10;
+}
+.circleSmall{
+  cx: 67+10;
+}
+#healthArc{
+  x:51+10;
+}
+#healthImage{
+  x:59+10;
+}
+#health1{
+  x:100%-10-5;
+}
+#health2{
+  x:100%-10-10;
+}
+#health3{
+  x:100%-10-15;
+}
+
+
+.bottomText{
+  x:$+1;
+  y:100%-10-14;
+}
+#bottomText1{
+  x:10+25;
+}
+.bottomTextD{
+  y: 100%+2-4-10;
+  x:$+8+2-5;
+}
+#bottomText15{
+  x:10+60;
+}
+
+

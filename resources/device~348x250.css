@@ -1,0 +1,75 @@
+#weatherIcon{
+  x: 50%+25;
+  y: -5;
+}
+#weather1{
+  y:6;
+}
+
+.timeBlock{
+  y:50%-40-10;
+}
+.topLine{
+  width: 100%-100;
+}
+
+#time {
+  letter-spacing: 5;
+}
+
+#seconds{
+  x: 100%-10-70;
+}
+.secondsBar{
+  x: 100%-63-70;
+}
+#ampmBlock{
+  opacity:1;
+}
+
+#timeZone2{
+  y:10+10+20;
+}
+
+
+#hrImage{
+  y: 5+8;
+}
+#hrText{
+  x: 26;
+  y: 24+8;
+}
+#btImage{
+  x:90-10;
+  y: 6+8;
+}
+
+.circleBig{
+  cx: 67-5;
+  cy: 20+8;
+}
+.circleSmall{
+  cx: 67-5;
+  cy: 20+8;
+}
+#healthArc{
+  x:51-5;
+  y:4+8;
+}
+#healthImage{
+  x:59-5;
+  y:12+8;
+}
+
+#health1{
+  y:10+17;
+}
+
+
+.bottomText{
+  x:$+6;
+}
+.bottomTextD{
+  x:$+8+5;
+}
+

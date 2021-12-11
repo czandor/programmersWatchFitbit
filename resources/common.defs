@@ -1,0 +1,151 @@
+<defs>
+  <symbol id="all">
+    <svg class="main">
+      
+      <text id="unixTime">UNIX TIME</text>
+        
+      
+      
+      <svg id="upperBlock">
+        <image id="weatherIcon" href="images/weather/weather_03.png" />
+        <text class="upperTexts" id="weather1"></text>
+        <text class="upperTexts" id="weather2"></text>
+        <text class="upperTexts" id="weather3"></text>
+        <text class="upperTexts" id="weather4"></text>
+      </svg>
+      
+      
+      
+      <svg class="analogBlock">
+        <circle cx="50%" cy="50%" r="50" fill="black" opacity="0.5" />
+        <g id="hourHand" transform="translate(50%,50%)">
+          <rect x="-2" y="-18" width="5" height="20" fill="white" />
+          <animateTransform id="hourAnim" attributeType="rotate" to="0" begin="enable" dur="1" easing="ease-out" />
+        </g>
+        <g id="minuteHand" transform="translate(50%,50%)">
+          <rect x="-1" y="-33" width="3" height="35" fill="white" />
+          <animateTransform id="minuteAnim" attributeType="rotate" to="0" begin="enable" dur="1" easing="ease-out" />
+        </g>
+        <g id="secondsHand" transform="translate(50%,50%)">
+          <rect x="0" y="-33" width="1" height="50" fill="white" />
+          <animateTransform id="secondsAnim" attributeType="rotate" to="0" begin="enable" dur="0.1" easing="ease-out" />
+          <animateTransform id="secondsAnim2" attributeType="rotate" to="0" begin="enable+0.1" dur="0.05" easing="ease-out" />
+        </g>
+        <circle cx="50%" cy="50%" r="4" fill="white" />
+        <circle cx="50%" cy="50%" r="1" />
+        <!--g x="50%" y="50%" transform="translate(50%,50%)"><g transform="rotate(60)">
+          <rect x="-45" y="-1" width="100%" height="2" fill="black" />
+        </g></g>
+        <g x="50%" y="50%" transform="translate(50%,50%)"><g transform="rotate(90)">
+          <rect x="-45" y="-1" width="100%" height="2" fill="black" />
+        </g></g>
+        <g x="50%" y="50%" transform="translate(50%,50%)"><g transform="rotate(120)">
+          <rect x="-45" y="-1" width="100%" height="2" fill="black" />
+        </g></g>
+        <g x="50%" y="50%" transform="translate(50%,50%)"><g transform="rotate(150)">
+          <rect x="-45" y="-1" width="100%" height="2" fill="black" />
+        </g></g-->
+        <text class="num num1">1</text>
+        <text class="num num2">2</text>
+        <text class="num num3">3</text>
+        <text class="num num4">4</text>
+        <text class="num num5">5</text>
+        <text class="num num6">6</text>
+        <text class="num num7">7</text>
+        <text class="num num8">8</text>
+        <text class="num num9">9</text>
+        <text class="num num10">10</text>
+        <text class="num num11">11</text>
+        <text class="num num12">12</text>
+      </svg>
+
+      
+      
+      <svg class="timeBlock">
+        <image class="up-arrow" href="images/up-arrow.png" />
+        <text class="additionalTimes" id="additionalTimes1"></text>;
+        <image class="down-arrow" href="images/down-arrow.png" />
+        <text class="additionalTimes" id="additionalTimes2"></text>;
+        <rect class="line topLine" />
+        <text id="time" />
+        <g id="secondsBlock">
+          <text id="seconds" />
+          <rect class="secondsBar" />
+          <rect class="secondsBar" id="secondsBar1" />
+          <rect class="secondsBar" id="secondsBar2" />
+        </g>
+        <g id="ampmBlock">
+          <text id="timeZone2"></text>
+          <text id="timeZone"></text>
+          <text id="hourStyle"></text>
+          <text id="ampm"></text>
+        </g>
+        <text class="date" id="date1" />
+        <text class="date" id="date2" />
+        <rect class="line bottomLine" />
+        <text class="geekNumbers" id="geekNumbers0">!</text>
+        <text class="geekNumbers" id="geekNumbers1"></text>
+        <text class="geekNumbers" id="geekNumbers2"></text>
+        <text class="geekNumbers" id="geekNumbers3"></text>
+        <text class="geekNumbers" id="geekNumbers4">!</text>
+      </svg>
+      
+      
+      
+      
+      <svg class="lowerBlock">
+        <image id="hrImage" href="images/hr.png" />
+        <text id="hrText">123</text>
+        <circle class="circleBig" />
+        <circle class="circleSmall" />
+        <arc id="healthArc" />
+        <image id="healthImage" href="" />
+        <image id="btImage" href="images/bton.png" />
+        <text class="lowerTexts" id="health1"></text>
+        <text class="lowerTexts" id="health2"></text>
+        <text class="lowerTexts" id="health3"></text>
+      </svg>
+      
+      
+      <text class="bottomText" id="bottomText1">1</text>
+      <text class="bottomText" id="bottomText2">2</text>
+      <text class="bottomText" id="bottomText3">4</text>
+      <text class="bottomText" id="bottomText4">8</text>
+      <text class="bottomText" id="bottomText5">16</text>
+      <text class="bottomText" id="bottomText6">32</text>
+      <text class="bottomText" id="bottomText7">64</text>
+      <text class="bottomText" id="bottomText8">128</text>
+      <text class="bottomText" id="bottomText9">256</text>
+      <text class="bottomText" id="bottomText10">512</text>
+      <text class="bottomText" id="bottomText11">1024</text>
+      <text class="bottomText" id="bottomText12">2048</text>
+      <text class="bottomText" id="bottomText13">4096</text>
+      <text class="bottomText" id="bottomText14">8192</text>
+      
+      <text class="bottomText bottomTextD" id="bottomText15">.</text>
+      <text class="bottomText bottomTextD" id="bottomText16">.</text>
+      <text class="bottomText bottomTextD" id="bottomText17">.</text>
+      <text class="bottomText bottomTextD" id="bottomText18">.</text>
+      <text class="bottomText bottomTextD" id="bottomText19">.</text>
+      <text class="bottomText bottomTextD" id="bottomText20">.</text>
+      <text class="bottomText bottomTextD" id="bottomText21">.</text>
+      <text class="bottomText bottomTextD" id="bottomText22">.</text>
+      <text class="bottomText bottomTextD" id="bottomText23">.</text>
+      <text class="bottomText bottomTextD" id="bottomText24">.</text>
+      <text class="bottomText bottomTextD" id="bottomText25">.</text>
+      <text class="bottomText bottomTextD" id="bottomText26">.</text>
+      <text class="bottomText bottomTextD" id="bottomText27">.</text>
+      <text class="bottomText bottomTextD" id="bottomText28">.</text>
+      <text class="bottomText bottomTextD" id="bottomText29">.</text>
+      <text class="bottomText bottomTextD" id="bottomText30">.</text>
+      <text class="bottomText bottomTextD" id="bottomText31">.</text>
+      <text class="bottomText bottomTextD" id="bottomText32">.</text>
+      
+      <!--text class="bottomText" id="bottomTextEnd">1024</text-->
+      
+      <rect id="buttonLow" />
+
+      
+    </svg>
+  </symbol>
+</defs>

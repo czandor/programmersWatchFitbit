@@ -1,0 +1,351 @@
+.main {
+  viewport-fill: #000000;
+  fill: #3de4ea;
+  font-family: System-Regular;
+  font-size:14;
+}
+
+#unixTime{
+  x:10;
+  y:10+10;
+  text-anchor: start;
+  text-length: 32;
+}
+#upperBlock{
+  x:0;
+  y:30;
+  width: 100%;
+  height:100%;
+  text-anchor: start;
+}
+#weatherIcon{
+  x: 50%;
+  y: 0;
+  width: 30;
+  height:30;
+}
+.upperTexts{
+  text-anchor: start;
+  text-length: 64;
+  x:10;
+  y: $+0;
+}
+#weather1{
+  y:10;
+}
+#weather2{
+  fill: white;
+}
+.analogBlock{
+  width:90;
+  height:90;
+  x: 100%-100;
+  y: 10;
+}
+.num{
+  text-anchor:middle;
+  text-length: 2;
+  x:0;
+  y:0;
+}
+.num12{
+  x:50%;
+  y:9;
+}
+.num1{
+  x:50%+20;
+  y:9+5;
+}
+.num2{
+  x:100%-10;
+  y:50%-16;
+}
+.num3{
+  x:100%-5;
+  y:50%+4;
+}
+.num4{
+  x:100%-10;
+  y:50%+24;
+}
+.num5{
+  x:50%+20;
+  y:100%-6;
+}
+.num6{
+  x:50%;
+  y:100%-1;
+}
+.num7{
+  x:50%-20;
+  y:100%-6;
+}
+.num8{
+  x:10;
+  y:50%+24;
+}
+.num9{
+  x:5;
+  y:50%+4;
+}
+.num10{
+  x:10;
+  y:50%-16;
+}
+.num11{
+  x:50%-20;
+  y:9+5;
+}
+
+.timeBlock{
+  width: 100%;
+  height:100;
+  x:0;
+  y:50%-40;
+}
+.up-arrow{
+  x:10;
+  y:-17;
+  width:8;
+  height:10;
+}
+.down-arrow{
+  x:70+5;
+  y:-17;
+  width:8;
+  height:10;
+}
+.additionalTimes{
+  y:-7;
+  text-anchor: start;
+  text-length: 32;
+}
+#additionalTimes1{
+  x:20;
+}
+#additionalTimes2{
+  x:80+5;
+}
+.line{
+  x:0;
+  width:100%;
+  height:1;
+}
+.topLine{
+  y: 0;
+  fill: #3de4ea;
+}
+.bottomLine{
+  y: 99;
+  fill: #3de4ea;
+}
+.geekNumbers{
+  text-length: 64;
+  y: 100+15;
+  fill:white;
+}
+#geekNumbers0{
+  x:5;
+  text-anchor: middle;
+  fill: red;
+  opacity:0;
+}
+#geekNumbers1{
+  x:10;
+  text-anchor: start;
+}
+#geekNumbers2{
+  x:50%;
+  text-anchor: middle;
+}
+
+#geekNumbers3{
+  x:100%-10;
+  text-anchor: end;
+}
+#geekNumbers4{
+  x:100%-5;
+  text-anchor: middle;
+  fill: red;
+  opacity:0;
+}
+
+#time {
+  font-size: 70;
+  font-family: System-Regular;
+  text-length: 16;
+  text-anchor: start;
+  letter-spacing: 10;
+  x: 15;
+  y: 60;
+  fill: #ffffff;
+}
+#secondsBlock{
+  opacity:1;
+}
+#seconds{
+  font-size: 43;
+  font-family: System-Regular;
+  text-length: 8;
+  text-anchor: end;
+  letter-spacing: 5;
+  x: 100%-10;
+  y: 42;
+  fill: #ffffff;
+}
+.secondsBar{
+  x: 100%-63;
+  y: 51;
+  width: 45;
+  height: 9;
+  fill: #838383;
+}
+#secondsBar1{
+  fill:#bbbbbb;
+  width:0;
+}
+#secondsBar2{
+  fill:#ffffff;
+  width:0;
+}
+#ampmBlock{
+  opacity:0;
+}
+#ampmBlock text{
+  
+}
+#timeZone2{
+  y:10+10;
+  text-length: 16;
+  text-anchor: start;
+  x: 100%-63;
+}
+#timeZone{
+  y:$+0;
+  text-length: 16;
+  text-anchor: start;
+  x: 100%-63;
+}
+#hourStyle{
+  y: $+0;
+  text-length: 16;
+  text-anchor: start;
+  x: 100%-63;
+}
+#ampm{
+  y: $+0;
+  text-length: 16;
+  text-anchor: start;
+  x: 100%-63;
+}
+.date{
+  font-size: 20;
+  y: 88;
+  text-length: 32;
+}
+#date1{
+  text-anchor: start;
+  x:10;
+}
+#date2{
+  text-anchor: end;
+  x:100%-10;
+}
+
+
+
+
+.lowerBlock{
+  x: 0;
+  y: 100%-68;
+}
+#hrImage{
+  width: 32;
+  height:32;
+  x:10;
+  y: 5;
+}
+#hrText{
+  text-anchor: middle;
+  text-length: 4;
+  fill: black;
+  x: 26;
+  y: 24;
+  font-family: System-Bold;
+}
+#btImage{
+  width: 28;
+  height:28;
+  x:90;
+  y: 6;
+}
+
+.circleBig{
+  cx: 67;
+  cy: 20;
+  r: 16; 
+  fill: #0a484d;
+}
+.circleSmall{
+  cx: 67;
+  cy: 20;
+  r: 11; 
+  fill: black;
+}
+#healthArc{
+  x:51;
+  y:4;
+  width:32;
+  height:32;
+  arc-width: 5;
+  start-angle: 0;
+  sweep-angle:90;
+}
+#healthImage{
+  x:59;
+  y:12;
+  width:16;
+  height:16;
+  opacity:0.8;
+}
+.lowerTexts{
+  text-length: 64;
+  text-anchor: end;
+  x:100%-10;
+  y: $+0;
+}
+#health1{
+  y:10;
+}
+
+
+
+.bottomText{
+  font-family: Seville-Condensed;
+  text-length: 4;
+  text-anchor: start;
+  x:$+2;
+  y:100%-10;
+}
+#bottomText1{
+  x:10;
+}
+.bottomTextD{
+  y: 100%+2-4;
+  x:$+8+2;
+  font-size:30;
+}
+#bottomText15{
+  x:10;
+}
+
+
+
+#buttonLow{
+  x:0;
+  y:50%;
+  pointer-events:visible; 
+  width: 100%;
+  height:50%;
+  opacity:0;
+}
