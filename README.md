@@ -19,11 +19,11 @@ Screenshots:
 ![Ionic](https://github.com/czandor/programmersWatchFitbit/blob/main/screenshots/ionic/Programmer's-Watch-screenshot%20(1).png?raw=true)
 ![Ionic](https://github.com/czandor/programmersWatchFitbit/blob/main/screenshots/ionic/Programmer's-Watch-screenshot%20(2).png?raw=true)
 
-![Ionic](https://github.com/czandor/programmersWatchFitbit/blob/main/screenshots/versa/Programmer's-Watch-screenshot%20(1).png?raw=true)
-![Ionic](https://github.com/czandor/programmersWatchFitbit/blob/main/screenshots/versa/Programmer's-Watch-screenshot%20(2).png?raw=true)
+![Versa](https://github.com/czandor/programmersWatchFitbit/blob/main/screenshots/versa/Programmer's-Watch-screenshot%20(1).png?raw=true)
+![Versa](https://github.com/czandor/programmersWatchFitbit/blob/main/screenshots/versa/Programmer's-Watch-screenshot%20(2).png?raw=true)
 
-![Ionic](https://github.com/czandor/programmersWatchFitbit/blob/main/screenshots/sense/Programmer's-Watch-screenshot%20(1).png?raw=true)
-![Ionic](https://github.com/czandor/programmersWatchFitbit/blob/main/screenshots/sense/Programmer's-Watch-screenshot%20(2).png?raw=true)
+![Sense](https://github.com/czandor/programmersWatchFitbit/blob/main/screenshots/sense/Programmer's-Watch-screenshot%20(1).png?raw=true)
+![Sense](https://github.com/czandor/programmersWatchFitbit/blob/main/screenshots/sense/Programmer's-Watch-screenshot%20(2).png?raw=true)
 
 You can download the compiled version from Fitbit Gallery:
 https://gallery.fitbit.com/details/b36d8ea6-c803-45fe-ad34-91dbe8d08e89
