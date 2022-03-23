@@ -25,7 +25,6 @@ if($obj){
     $info.="\n".gmdate("Y-m-d H:i:s");
     $response->info=$info;
     $response->vibe=0;
-    //$response->imageURL="https://images.unsplash.com/photo-1602107575489-f2c55a615687?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=336&ixlib=rb-1.2.1&q=80&w=336";
 }
 else $response->status='error';
 
