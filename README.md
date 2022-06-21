@@ -25,6 +25,18 @@ Screenshots:
 ![Sense](https://github.com/czandor/programmersWatchFitbit/blob/main/screenshots/sense/Programmer's-Watch-screenshot%20(1).png?raw=true)
 ![Sense](https://github.com/czandor/programmersWatchFitbit/blob/main/screenshots/sense/Programmer's-Watch-screenshot%20(2).png?raw=true)
 
+Custom  Info Script:  
+
+To display information using the Custom Info Script, the URL needs to return a JSON response formatted like:
+
+```json
+{
+  "info": "String1\nString2\nString3"
+}
+
+```
+The clock will split on the `\n` character and divide into three seperate Strings
+
 You can download the compiled version from Fitbit Gallery:
 https://gallery.fitbit.com/details/b36d8ea6-c803-45fe-ad34-91dbe8d08e89
 
