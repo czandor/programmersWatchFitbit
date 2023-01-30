@@ -7,6 +7,7 @@ I added more features:
 - Heart rate icon
 - Click on the bottom of the screen will show the binary code of the selected decimal value below
 - INFO SCRIPT capability: The clockface can send a request to your script with some data in json format with raw POST, and it will display your script result under the DATE line. Info Script help: https://czandor.hu/fitbit/prog/info-help.php
+
 Implemented features:
 - Weather
 - Health information
